@@ -2,10 +2,13 @@
 python3 -m venv venv
 source venv/bin/activate
 django-admin startproject hrm .
-
 python -m pip install --upgrade pip
 python -m pip install django
-
 python manage.py runserver
 
+app create:
+python manage.py startproject[project_name];
 
+Database cunnection:
+python manage.py makemigrations
+python manage.py migrate
