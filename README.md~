@@ -16,3 +16,17 @@ python manage.py migrate
 pip install python-decouple
 sudo apt update
 sudo apt install libpq-dev python3-dev build-essential
+
+#Create Super User:
+python manage.py createsuperuser
+Username (leave blank to use 'milan-panja'): admin
+Email address: admin@gmail.com
+Password:123 
+Password (again):123
+
+asgiref         3.11.1
+Django          6.0.2
+pip             26.0.1
+psycopg2-binary 2.9.11
+python-decouple 3.8
+sqlparse        0.5.5
